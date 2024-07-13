@@ -16,3 +16,7 @@ cd /path/to/your/directory
 git clone https://github.com/username/repository.git
 git pull
 git push
+
+
+#Directory Tree
+sudo apt install tree

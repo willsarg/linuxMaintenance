@@ -1,0 +1,27 @@
+
+- bin -> usr/bin
+- bin.usr-is-merged
+- boot
+- cdrom
+- dev
+- etc
+- home
+- lib -> usr/lib
+- lib64 -> usr/lib64
+- lib.usr-is-merged
+- lost+found
+- media
+- mnt
+- opt
+- proc
+- root
+- run
+- sbin -> usr/sbin
+- sbin.usr-is-merged
+- snap
+- srv
+- swap.img
+- sys
+- tmp
+- usr
+- var
