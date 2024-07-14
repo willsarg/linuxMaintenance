@@ -20,3 +20,6 @@ git push
 
 #Directory Tree
 sudo apt install tree
+
+#File System Consistency Check
+fsck

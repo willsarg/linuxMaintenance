@@ -2,26 +2,49 @@
 - bin -> usr/bin
 - bin.usr-is-merged
 - boot
+--system boot files
 - cdrom
 - dev
+--device files representing hardware
 - etc
+--system wide configuration files
 - home
+--home directories for all users
 - lib -> usr/lib
 - lib64 -> usr/lib64
 - lib.usr-is-merged
 - lost+found
+-- used to host files with no home
 - media
+-- mount point for removable drives
 - mnt
+-- mount point for filesystems
 - opt
+-- optional software packages
 - proc
+-- system processes and kernel parameter
 - root
+-- home directory for the root user
 - run
+-- information about the system since last boot
 - sbin -> usr/sbin
 - sbin.usr-is-merged
 - snap
 - srv
+-- Data for services provided by the system
 - swap.img
 - sys
+-- filesystem about kernel, devices, sys config
 - tmp
+-- temporary files used by applications
 - usr
+-- user-installed software and programs
+--/usr/bin
+--- Core System commands
+--/usr/sbin
+--system administration programs
+--/usr/lib
+--- shared libraries for bin
+--/usr/lib64
 - var
+-- logs, spools, caches
