@@ -52,3 +52,24 @@ du -h --max-depth=1 / | sort -n | cut -f2 | xargs -I {} du -h --max-depth=1 {} |
 ls / | tree
 #that didn't work, so let's try this
 ls / | tree -L 1
+
+#Gets the history of commands
+cat ~/.bash_history
+
+#PrintF uses C syntax to format strings
+printf "That'll be $%0.2f, my friend.\n" 3
+#That'll be $3.00, my friend. , prints the number 3 as a 2 decimal float
+
+#yes
+#the yes operator can be piped into other commands to simulate user input
+yes | sudo apt update && sudo apt upgrade
+
+#seq
+seq 1 10
+
+#what's up with shells
+echo $SHELL
+chsh -s /bin/bash
+chsh -s /bin/zsh
+chsh -s /bin/sh
+chsh -s /bin/ksh
